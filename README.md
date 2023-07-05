@@ -1,0 +1,3 @@
+# pScan
+
+The purpose of this project is to learn how to use cobra in building command line tools, and also to use Go to create networking applications. pScan is a cli tool that uses sub-commands similar to Git of Kubernetes. This tool executes a TCP port scan on a list of hosts similar to the Nmap command. It allows you to add, list and delete hosts from the list using subcommand hosts. I It executes the scan on selected ports using the subcommand scan. Users can specify the ports using a command-line flag. It also features command completion using the subcommand completion and manual page generation with subcommand docs. You can use this app to monitor your system, but remember to never port scan systems you don't own.
